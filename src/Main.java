@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        //取得使用者輸入
+        //取得使用者輸入.
         Scanner sc = new Scanner(System.in);
         System.out.print("請輸入一個詞： ");
         String input = sc.nextLine();
@@ -58,7 +58,7 @@ public class Main {
                 webPage.setScore(keywordList.getList());
                 webPages.add(webPage);
             } catch (IOException e) {
-                // 顯示URL 找不到的情況
+                // URL 找不到的情況
                 
             }
         }

@@ -26,7 +26,7 @@ public class WebPage implements Comparable<WebPage> {
 
     @Override
     public int compareTo(WebPage other) {
-        // 在這裡實現比較邏輯，例如按照分數降序排列
+        // 在這裡實現比較邏輯，例如按照分數降序排列.
         return Double.compare(other.score, this.score);
     }
 }

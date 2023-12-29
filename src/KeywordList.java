@@ -33,7 +33,7 @@ public class KeywordList {
         System.out.println(s + ": " + LCS.toString());
     }
 
-    // 1. Implement the LCS algorithm
+    // 1. Implement the LCS algorithm.
     // Return the length of lcs
     public int findLCS(String x, String y)
     {

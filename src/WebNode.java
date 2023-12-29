@@ -7,7 +7,7 @@ public class WebNode {
 	public ArrayList<WebNode> children;
 	public WebPage webPage;
 	public double nodeScore; 
-	// nodeScore += all its children's nodeScore
+	// nodeScore += all its children's nodeScore.
  
 	public WebNode(WebPage webPage){
 		this.webPage = webPage;

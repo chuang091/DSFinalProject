@@ -18,7 +18,7 @@ public class WebTree {
 		for(WebNode childNode : startNode.children){
 			childNode.setNodeScore(keywords);
 		}
-		//**setNode score of startNode
+		//**setNode score of startNode.
 		startNode.setNodeScore(keywords);
 	}
  

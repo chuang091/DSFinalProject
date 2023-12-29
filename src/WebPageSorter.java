@@ -3,7 +3,7 @@ import java.util.Collections;
 
 public class WebPageSorter {
 
-    // 快速排序
+    // 快速排序.
     public static void quickSort(ArrayList<WebPage> webPages) {
         quickSort(webPages, 0, webPages.size() - 1);
     }

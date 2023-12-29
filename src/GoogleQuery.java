@@ -23,7 +23,7 @@ public class GoogleQuery
 		try 
 		{
 			// This part has been specially handled for Chinese keyword processing. 
-			// You can comment out the following two lines 
+			// You can comment out the following two lines .
 			// and use the line of code in the lower section. 
 			// Also, consider why the results might be incorrect 
 			// when entering Chinese keywords.
