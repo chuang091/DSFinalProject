@@ -12,7 +12,7 @@ public class Main {
         //取得使用者輸入
         Scanner sc = new Scanner(System.in);
         System.out.print("請輸入一個詞： ");
-        String inputText = sc.nextLine();
+        String input = sc.nextLine();
   
 
         //設定keywords的權重
@@ -43,8 +43,8 @@ public class Main {
         keywordList.add(new Keyword("幻想", 2.0f));
      
 
-        //取得標題和URL，計算所有分數
-        HashMap<String, String> titleAndURL = new GoogleQuery(inputText).query();
+        //取得標題和URL，計算分數
+        HashMap<String, String> titleAndURL = new GoogleQuery(input).query();
         ArrayList<WebPage> webPages = new ArrayList<>();
 
         for (Map.Entry<String, String> entry : titleAndURL.entrySet()) {
@@ -58,7 +58,7 @@ public class Main {
                 webPage.setScore(keywordList.getList());
                 webPages.add(webPage);
             } catch (IOException e) {
-                // 處理 URL 找不到的情況
+                // 顯示URL 找不到的情況
                 
             }
         }
