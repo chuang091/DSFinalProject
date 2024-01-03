@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/young/eclipse-workspace/jsoup-1.16.2.jar"/>
+	<classpathentry kind="lib" path="jsoup-1.17.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
